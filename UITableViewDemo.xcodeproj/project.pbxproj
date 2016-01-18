@@ -15,6 +15,7 @@
 		42F0E9141C4C522100D35A93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42F0E9121C4C522100D35A93 /* LaunchScreen.storyboard */; };
 		42F0E91F1C4C522100D35A93 /* UITableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F0E91E1C4C522100D35A93 /* UITableViewDemoTests.m */; };
 		42F0E92A1C4C522100D35A93 /* UITableViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F0E9291C4C522100D35A93 /* UITableViewDemoUITests.m */; };
+		42F0E9391C4C553800D35A93 /* MyCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F0E9381C4C553800D35A93 /* MyCellTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		42F0E9251C4C522100D35A93 /* UITableViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F0E9291C4C522100D35A93 /* UITableViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewDemoUITests.m; sourceTree = "<group>"; };
 		42F0E92B1C4C522100D35A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42F0E9371C4C553800D35A93 /* MyCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCellTableViewCell.h; sourceTree = "<group>"; };
+		42F0E9381C4C553800D35A93 /* MyCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCellTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				42F0E9081C4C522100D35A93 /* AppDelegate.m */,
 				42F0E90A1C4C522100D35A93 /* ViewController.h */,
 				42F0E90B1C4C522100D35A93 /* ViewController.m */,
+				42F0E9371C4C553800D35A93 /* MyCellTableViewCell.h */,
+				42F0E9381C4C553800D35A93 /* MyCellTableViewCell.m */,
 				42F0E90D1C4C522100D35A93 /* Main.storyboard */,
 				42F0E9101C4C522100D35A93 /* Assets.xcassets */,
 				42F0E9121C4C522100D35A93 /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42F0E90C1C4C522100D35A93 /* ViewController.m in Sources */,
+				42F0E9391C4C553800D35A93 /* MyCellTableViewCell.m in Sources */,
 				42F0E9091C4C522100D35A93 /* AppDelegate.m in Sources */,
 				42F0E9061C4C522100D35A93 /* main.m in Sources */,
 			);
